@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8" />
-		<title>titre</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8" />
+    <title>titre</title>
+  </head>
+  <body>
 
-		<!--
-		créez un formulaire qui contient les champs suivants :
-		- un champ image (de type fichier avec upload unique)
-		- un champ pdf (de type fichier avec upload multiple)
-		- un champ tags (de type texte)
-		- un bouton d'envoi
-		-->
+    <!--
+    créez un formulaire qui contient les champs suivants :
+    - un champ image (de type fichier avec upload unique)
+    - un champ pdf (de type fichier avec upload multiple)
+    - un champ tags (de type texte)
+    - un bouton d'envoi
+    -->
 
-		<form action="" method="post" enctype="multipart/form-data">
-			<div>
-				<div>
-					<label for="image">Votre image</label>
-				</div>
-				<div>
-					<input type="file" id="image" name="image" />
-				</div>
-			</div>
-			<div>
-				<div>
-					<label for="pdf">Vos pdf</label>
-				</div>
-				<div>
-					<input type="file" id="pdf" name="pdf[]" multiple="" />
-				</div>
-			</div>
-			<div>
-				<div>
-					<label for="tags"></label>
-				</div>
-				<div>
-					<input type="text" id="tags" name="tags" value="" />
-				</div>
-			</div>
-			<div>
-				<input type="submit" value="envoyer" />
-			</div>
-		</form>
+    <form action="" method="post" enctype="multipart/form-data">
+      <div>
+        <div>
+          <label for="image">Votre image</label>
+        </div>
+        <div>
+          <input type="file" id="image" name="image" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="pdf">Vos pdf</label>
+        </div>
+        <div>
+          <input type="file" id="pdf" name="pdf[]" multiple="" />
+        </div>
+      </div>
+      <div>
+        <div>
+          <label for="tags"></label>
+        </div>
+        <div>
+          <input type="text" id="tags" name="tags" value="" />
+        </div>
+      </div>
+      <div>
+        <input type="submit" value="envoyer" />
+      </div>
+    </form>
 
-	</body>
+  </body>
 </html>

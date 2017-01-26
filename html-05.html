@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>titre</title>
+	</head>
+	<body>
+
+		<!--
+		envoi de données par méthode post à l'url form.php
+		la valeur "multipart/form-data" de l'attribut enctype permet l'envoi de fichiers
+		-->
+		<form action="form.php" method="post" enctype="multipart/form-data">
+			<div>
+				<div>
+					<label for="description">description du fichier</label>
+				</div>
+				<div>
+					<input type="text" id="description" name="description" value="" placeholder="description du fichier" />
+				</div>
+			</div>
+			<div>
+				<div>
+					<label for="file">fichier</label>
+				</div>
+				<div>
+					<!-- champ de sélection unique de fichier -->
+					<input type="file" id="file" name="file" />
+				</div>
+			</div>
+			<div>
+				<div>
+					<label for="file">fichier</label>
+				</div>
+				<div>
+					<!-- champ de sélection multiple de fichiers -->
+					<!--
+					si vous utilisez l'attribut multiple,
+					vous devez ajouter des crochets [] à la valeur de name
+					-->
+					<input type="file" id="file" name="file[]" multiple="" />
+				</div>
+			</div>
+			<div>
+				<input type="submit" value="envoyer" />
+			</div>
+		</form>
+
+	</body>
+</html>

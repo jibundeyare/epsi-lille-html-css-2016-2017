@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>titre</title>
+	</head>
+	<body>
+
+		<form action="" method="post" enctype="multipart/form-data">
+
+			<!-- plusieurs radio bottons se comportent comme un select unique -->
+			<div>
+				<label>
+					<input type="radio" name="fruit" id="fruit-banane" value="1" /> banane
+				</label>
+				<label>
+					<input type="radio" name="fruit" id="fruit-pomme" value="2" /> pomme
+				</label>
+				<label>
+					<input type="radio" name="fruit" id="fruit-orange" value="3" /> orange
+				</label>
+			</div>
+
+			<!-- plusieurs checkbox se comportent comme un select multiple -->
+			<!-- vous devez ajouter des crochets [] à la valeur de name -->
+			<div>
+				<label>
+					<input type="checkbox" name="legumes[]" id="legumes-carotte" value="1" /> carotte
+				</label>
+				<label>
+					<input type="checkbox" name="legumes[]" id="legumes-concombre" value="2" /> concombre
+				</label>
+				<label>
+					<input type="checkbox" name="legumes[]" id="legumes-pomme-de-terre" value="3" /> pomme de terre
+				</label>
+			</div>
+
+			<div>
+				<input type="submit" value="valider" />
+			</div>
+		</form>
+
+	</body>
+</html>

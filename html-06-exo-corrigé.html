@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8" />
+		<title>titre</title>
+	</head>
+	<body>
+
+		<!--
+		créez un formulaire de création d'article avec les champs suivants :
+		- titre (texte sur une seule ligne)
+		- chapeau (texte multi-lignes)
+		- corps de texte (texte multi-lignes)
+		- tags (texte sur une seule ligne)
+		- un bouton d'envoi
+		-->
+
+		<form action="" method="post" enctype="multipart/form-data">
+			<div>
+				<input type="text" id="titre" name="titre" value="" placeholder="le titre" />
+			</div>
+			<div>
+				<textarea id="chapeau" name="chapeau" placeholder="le chapeau"></textarea>
+			</div>
+			<div>
+				<textarea id="texte" name="texte" placeholder="le corps de texte"></textarea>
+			</div>
+			<div>
+				<input type="text" id="tags" name="tags" value="" placeholder="les tags" />
+			</div>
+			<div>
+				<input type="submit" value="valider" />
+			</div>
+		</form>		
+
+	</body>
+</html>

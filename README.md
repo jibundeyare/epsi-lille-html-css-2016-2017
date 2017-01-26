@@ -8,24 +8,33 @@ Ce repo contient le code écrit durant le cours de html & css à EPSI Lille, ses
 
 Downloadez un zip du repo ou clonez le avec git.
 
-## Structure type d'un projet html & css & js statique
+Ensuite installez les dépendances avec bower :
 
-	document-root/
+    cd epsi-arras-html-css-2016-2017
+    bower install
+
+## Structure type d'un projet html, css & js statique
+
+    document-root/
+      bower_components/
+        bootstrap/
+        jquery/
       img/
         *.gif
         *.jpg
         *.jpeg
         *.png
         *.svg
-	  index.html
-	  *.html
+      bower.json
+      index.html
+      *.html
 
 ## Déboguez votre code html & css
 
 - tester la compatibilité des navigateurs avec une fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)
-- validation de code css : [Service de validation CSS du W3C](https://jigsaw.w3.org/css-validator/)
 - validation de code html4 : [The W3C Markup Validation Service](https://validator.w3.org/)
 - validation de code html5 : [Ready to check - Nu Html Checker](https://validator.w3.org/nu/)
+- validation de code css : [Service de validation CSS du W3C](https://jigsaw.w3.org/css-validator/)
 
 ## Medias
 

@@ -11,14 +11,14 @@ Downloadez un zip du repo ou clonez le avec git.
 ## Structure type d'un projet html & css & js statique
 
 	document-root/
-    img/
-      *.gif
-      *.jpg
-      *.jpeg
-      *.png
-      *.svg
-		index.html
-		*.html
+      img/
+        *.gif
+        *.jpg
+        *.jpeg
+        *.png
+        *.svg
+	  index.html
+	  *.html
 
 ## Déboguez votre code html & css
 

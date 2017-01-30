@@ -19,12 +19,19 @@ Ensuite installez les dépendances avec bower :
       bower_components/
         bootstrap/
         jquery/
+      css/
+        *.css
       img/
         *.gif
         *.jpg
         *.jpeg
         *.png
         *.svg
+      js/
+        *.js
+      sass/
+        *.sass
+        *.scss
       bower.json
       index.html
       *.html

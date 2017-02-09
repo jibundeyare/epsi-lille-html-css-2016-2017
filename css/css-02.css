@@ -1,0 +1,22 @@
+#div-1 {
+	/* couleur de l'arrière plan */
+	background-color: pink;
+
+	/*bordure*/
+	border: 20px solid darkgrey;
+
+	/* changement du box model */
+	box-sizing: border-box;
+
+	/* hauteur */
+	height: 300px;
+
+	/* marge extérieure */
+	margin: 50px 50px 50px 50px;
+
+	/* marge intérieure */
+	padding: 40px 40px 40px 40px;
+
+	/* largeur */
+	width: 500px;
+}

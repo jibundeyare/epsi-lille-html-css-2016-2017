@@ -4,6 +4,16 @@
 
 Ce repo contient le code écrit durant le cours de html & css à EPSI Lille, session 2016-2017.
 
+## Prérequis
+
+L'utilisation de ce repo nécessite l'installation des applications suivantes :
+
+- git
+- nodejs + npm
+- bower
+- ruby
+- sass
+
 ## Installation
 
 Downloadez un zip du repo ou clonez le avec git.
@@ -36,10 +46,23 @@ Ensuite installez les dépendances avec bower :
       index.html
       *.html
 
-## Trouvez de la doc sur html & css
+## Compilation des fichiers sass / scss
+
+Ouvrez un terminal (cmd sous windows) puis déplacez vous jusqu'au dossier racine (le document-root) de votre projet avec la commande `cd`.
+
+Pour compiler le fichier `style.scss` tapez :
+
+    sass sass/style.scss css/style.css
+
+Pour demander à sass d'autocompiler dès qu'un changement est détecté tapez :
+
+    sass --watch sass:css
+
+## Où trouver de la doc sur html, css et sass
 
 - [HTML element reference - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [CSS reference - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+- [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
 
 ## Déboguez votre code html & css
 

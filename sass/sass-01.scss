@@ -1,0 +1,25 @@
+#div-1 {
+	animation: anim-1 5s infinite;
+	height: 100px;
+	width: 100px;
+}
+
+@keyframes anim-1 {
+	0% {
+		background-color: pink;
+		border-radius: 0%;
+		transform: translate(100px, 100px);
+	}
+
+	50% {
+		background-color: lightblue;
+		border-radius: 50%;
+		transform: translate(500px, 300px);
+	}
+
+	100% {
+		background-color: pink;
+		border-radius: 0%;
+		transform: translate(100px, 100px);
+	}
+}

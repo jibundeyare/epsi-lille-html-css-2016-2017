@@ -1,0 +1,13 @@
+.float {
+	float: left;
+	height: 200px;
+	width: 200px;
+}
+
+.pair {
+	background-color: pink;
+}
+
+.impair {
+	background-color: lightblue;
+}

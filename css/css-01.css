@@ -1,0 +1,45 @@
+#image-1 {
+	/* bord arrondi de 15px */
+	border-radius: 15px;
+	/* adapte la largeur de l'image par rapport à la taille de son conteneur */
+	width: 100%;
+}
+
+#lien-1 {
+	/*couleur*/
+	color: #AA0000;
+	/*taille du texte*/
+	font-size: 40px;
+	/*soulignement*/
+	text-decoration: none;
+}
+
+/*élément survolé par un pointeur (souris par exemple)*/
+#lien-1:hover {
+	color: #DD0000;
+	text-decoration: underline;
+}
+
+#span-1 {
+	font-size: 40px;
+	/* taille de l'interligne */
+	line-height: 80px;
+}
+
+#span-2 {
+	font-size: 40px;
+	/* texte en italique */
+	font-style: italic;
+}
+
+#span-3 {
+	font-size: 40px;
+	/* texte en gras */
+	font-weight: bold;
+}
+
+#span-4 {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: bold;
+}

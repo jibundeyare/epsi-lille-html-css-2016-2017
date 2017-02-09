@@ -1,0 +1,16 @@
+span {
+	font-size: 40px;
+}
+
+#span-1 {
+	color: pink;
+
+	/* positionnement relatif à la position originale */
+	position: relative;
+	top: 100px;
+	left: 100px;
+}
+
+#span-2 {
+	color: grey;
+}

@@ -36,6 +36,11 @@ Ensuite installez les dépendances avec bower :
       index.html
       *.html
 
+## Trouvez de la doc sur html & css
+
+- [HTML element reference - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [CSS reference - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
 ## Déboguez votre code html & css
 
 - tester la compatibilité des navigateurs avec une fonctionnalité : [Can I use... Support tables for HTML5, CSS3, etc](http://caniuse.com/)

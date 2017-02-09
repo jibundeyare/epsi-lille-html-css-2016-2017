@@ -1,0 +1,29 @@
+body {
+	background-color: lightblue;
+	color: darkgrey;
+}
+
+.container {
+	background-color: white;
+}
+
+#logo {
+	border-radius: 15px;
+	float: left;
+	margin: 20px 15px 0 0;
+}
+
+.my-2-col h2 {
+	font-style: italic;
+}
+
+a,
+a:focus,
+a:hover {
+	color: red;
+	font-weight: bold;
+}
+
+a:visited {
+	color: green;
+}

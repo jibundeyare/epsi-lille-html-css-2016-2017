@@ -58,11 +58,12 @@ Pour demander à sass d'autocompiler dès qu'un changement est détecté tapez :
 
     sass --watch sass:css
 
-## Où trouver de la doc sur html, css et sass
+## Où trouver de la doc sur html, css, sass et bootstrap
 
 - [HTML element reference - HTML | MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [CSS reference - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 - [Sass: Syntactically Awesome Style Sheets](http://sass-lang.com/)
+- [Bootstrap · The world's most popular mobile-first and responsive front-end framework.](http://getbootstrap.com/)
 
 ## Déboguez votre code html & css
 
